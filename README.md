@@ -1,3 +1,3 @@
-tree-less (no AST)
-bytecode-style (tokens = bytecode)
-direct execution
+- tree-less (no AST)
+- bytecode-style (tokens = bytecode)
+- direct execution
