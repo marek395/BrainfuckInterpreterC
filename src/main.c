@@ -196,10 +196,11 @@ int main(void) {
 	size_t tokens_len = 0;
 	int* tokens = tokenize(text_buffer, size, &tokens_len);
 	
+	/*
 	for (size_t i = 0; i < tokens_len; i++){
 		printf("%d ", tokens[i]);
 	}
-	printf("\n\n");
+	printf("\n\n");*/
 	//printf("%lld", sizeof(size_t));
 
 	interpret(tokens, tokens_len);
